@@ -23,27 +23,26 @@ body {
   #FFC1FA,#FFE78F); */
 }
 
+/* url(img/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg) */
 .header {
   /* viewport height */
-  height: 95vh;
-  background-image: 
-    linear-gradient(
-      to right bottom,
-      hsla(305, 100%, 88%, 0.80), hsla(47, 100%, 78%, 0.80)),
-      url(img/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg);
+  height: 100vh;
+  background-image:
+    linear-gradient(to right bottom,
+      hsla(305, 100%, 88%, 0.80), hsla(47, 100%, 78%, 0.80));
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(100% 0, 100% 100%, 49% 85%, 0 100%, 0 0);
+  /* clip-path: polygon(100% 0, 100% 100%, 49% 85%, 0 100%, 0 0); */
 }
 
-.logo-box{
+.logo-box {
   position: absolute;
   top: 40px;
   left: 40px;
 }
 
-.logo{
+.logo {
   height: 35px;
 }
 
@@ -54,18 +53,19 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.heading-primary{
+.heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
 }
 
-.heading-primary-main{
+.heading-primary-main {
   display: block;
   font-size: 60px;
   font-weight: 400;
+  line-height: normal;
   /* letter-spacing: 35px; */
-  font-family: 'Pacifico', cursive;
+  /* font-family: 'Pacifico', cursive; */
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -73,7 +73,7 @@ body {
   /* animation-delay: 3s; */
 }
 
-.heading-primary-sub{
+.heading-primary-sub {
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -83,8 +83,24 @@ body {
   animation-timing-function: ease-in;
 }
 
+.heading-primary-sub a {
+  letter-spacing: 0;
+  color: #f4a4f4;
+  font-weight: 100;
+  display: inline;
+  text-decoration: none;
+}
+
+.heading-primary-sub a:hover {
+  letter-spacing: 0;
+  color: #9b8ae6;
+  font-weight: 900;
+  display: inline;
+  text-decoration: none;
+}
+
 @keyframes moveInLeft {
-  0%{
+  0% {
     opacity: 0;
     transform: translateX(-100px);
   }
@@ -93,14 +109,14 @@ body {
     transform: translateX(10px);
   }
 
-  100%{
+  100% {
     opacity: 1;
     transform: translate(0);
   }
 }
 
 @keyframes moveInRight {
-  0%{
+  0% {
     opacity: 0;
     transform: translateX(100px);
   }
@@ -109,14 +125,14 @@ body {
     transform: translateX(-10px);
   }
 
-  100%{
+  100% {
     opacity: 1;
     transform: translate(0);
   }
 }
 
-.middle-container{
+.middle-container {
   background: #FFE78F;
-  
+
 
 }
