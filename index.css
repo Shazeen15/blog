@@ -3,12 +3,16 @@
 #FFC1FA
 #FFE78F
 #FFD36B
+#9b8ae6
 */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1,h2,h3{
+  font-family:
 }
 
 body {
@@ -19,17 +23,14 @@ body {
   color: #777;
   padding-left: 30px;
   padding-right: 30px;
-  /* background: linear-gradient(to right bottom,
-  #FFC1FA,#FFE78F); */
 }
 
-/* url(img/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg) */
 .header {
   /* viewport height */
   height: 100vh;
   background-image:
     linear-gradient(to right bottom,
-      hsla(305, 100%, 88%, 0.80), hsla(47, 100%, 78%, 0.80));
+    #ffc1fa96, #ffe78f79);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -53,6 +54,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.text-box h1{
+  color: #9b8ae6;
+}
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
@@ -65,7 +70,6 @@ body {
   font-weight: 400;
   line-height: normal;
   /* letter-spacing: 35px; */
-  /* font-family: 'Pacifico', cursive; */
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -85,7 +89,7 @@ body {
 
 .heading-primary-sub a {
   letter-spacing: 0;
-  color: #f4a4f4;
+  color: #F09AE9;
   font-weight: 100;
   display: inline;
   text-decoration: none;
@@ -97,6 +101,16 @@ body {
   font-weight: 900;
   display: inline;
   text-decoration: none;
+}
+
+.aboutMe {
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #9b8ae6;
+}
+
+.aboutMe h2 {
+  font-weight: 400;
 }
 
 @keyframes moveInLeft {
@@ -129,10 +143,4 @@ body {
     opacity: 1;
     transform: translate(0);
   }
-}
-
-.middle-container {
-  background: #FFE78F;
-
-
 }
