@@ -89,6 +89,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -157,13 +158,8 @@ body {
     padding-right: 30px;
 }
 
-/* url(img/nesa-by-makers-kwzWjTnDPLk-unsplash.jpg) */
 .header {
     background-color: #FFE78F;
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    /* clip-path: polygon(100% 0, 100% 100%, 49% 85%, 0 100%, 0 0); */
 }
 
 nav {
@@ -176,7 +172,6 @@ nav a {
     color: #F09AE9;
     font-weight: 400;
     display: inline;
-    text-decoration: none;
     font-size: 1.25rem;
 }
 
@@ -193,8 +188,6 @@ h1 {
 
 #main{
     background-color: #FFC1FA;
-    background-size: cover;
-    background-position: top;
 }
 
 #main h2{
@@ -206,4 +199,18 @@ h1 {
 
 #main p{
     padding: 2% 7%;
+}
+
+#main .lastParagraph {
+    padding-bottom: 10%;
+}
+
+footer {
+    background-color: #FFE78F;
+    padding: 5%;
+}
+
+footer div {
+    display: flex;
+    justify-content: flex-end;
 }
