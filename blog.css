@@ -154,8 +154,6 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #777;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .header {
@@ -164,20 +162,6 @@ body {
 
 nav {
     display: flex;
-    justify-content: flex-end;
-}
-
-nav a {
-    margin: 2%;
-    color: #F09AE9;
-    font-weight: 400;
-    display: inline;
-    font-size: 1.25rem;
-}
-
-nav a:hover {
-    color: #9b8ae6;
-    font-weight: 900;
 }
 
 h1 {
@@ -186,18 +170,18 @@ h1 {
     color: #F09AE9;
 }
 
-#main{
+#main {
     background-color: #FFC1FA;
 }
 
-#main h2{
+#main h2 {
     font-size: 2rem;
     text-align: center;
     color: #777;
     padding-top: 5%;
 }
 
-#main p{
+#main p {
     padding: 2% 7%;
 }
 
@@ -208,9 +192,25 @@ h1 {
 footer {
     background-color: #FFE78F;
     padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #F09AE9;
+}
+
+nav a:hover {
+    color: #9b8ae6;
+    font-weight: bold;
 }
 
 footer div {
-    display: flex;
-    justify-content: flex-end;
+    margin-right: 5%;
 }
