@@ -194,9 +194,7 @@ h1 {
 
 footer {
     background-color: #FFE78F;
-    padding: 5%;
-    display: flex;
-    justify-content: space-between;
+    padding: 2%;
 }
 
 nav {
@@ -214,6 +212,16 @@ nav a:hover {
     font-weight: bold;
 }
 
-footer div {
-    margin-right: 5%;
+footer{
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    color: #9b8ae6;
+}
+
+footer i {
+    font-size: 1.5rem;
+    color: #9b8ae6;
 }
