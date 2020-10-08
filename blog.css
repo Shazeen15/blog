@@ -140,6 +140,7 @@ table {
 #FFE78F
 #FFD36B
 #9b8ae6
+#BA3D67
 */
 
 * {
@@ -190,22 +191,35 @@ h1 {
     font-size: 2rem;
 }
 
-#main {
+/* #main {
     background-color: rgb(255, 247, 254);
-}
+} */
 
 #main h2 {
     font-size: 2rem;
     text-align: center;
     color: #777;
     padding: 2%;
+    color: #BA3D67;
 }
-#main {
+section {
     padding: 2% 7%;
 }
 
 #main p {
     padding-top: 2%;
+}
+
+.blog1{
+    background-color: rgb(255, 247, 254);
+}
+
+.resources{
+    background-color: rgb(255, 247, 254);
+}
+
+.emptySec{
+    height: 5vh;
 }
 
 footer {
