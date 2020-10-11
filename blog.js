@@ -1,9 +1,11 @@
-let par = document.querySelector('.par');
-console.log(par);
+let par1 = document.querySelector('.par1');
+let par2 = document.querySelector('.par2');
+let par3 = document.querySelector('.par3');
 
 let button = document.querySelector('button')
-console.log(button);
 
 button.addEventListener('click', (event) => {
-    par.classList.toggle('expand');
+    par1.classList.toggle('expand');
+    par2.classList.toggle('expand');
+    par3.classList.toggle('expand');
 })
