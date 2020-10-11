@@ -210,6 +210,16 @@ section {
     background-color: rgb(255, 247, 254);
 }
 
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #BA3D67;
+    border-width: 5px;
+    width: 10%;
+    margin: 0 auto;
+    clear: both;
+  }
+
 button{
     border: none;
     border-radius: 100px;
