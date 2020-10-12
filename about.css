@@ -237,8 +237,16 @@ button{
     display: flex;
 }
 
+@media (max-width: 400px){
+    .resources-containers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .resources-containers img{
-    width: 200px;
+    width: 100px;
     border-radius: 50px;
 }
 
@@ -248,7 +256,7 @@ button{
 }
 
 .resources-containers p {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 footer {
