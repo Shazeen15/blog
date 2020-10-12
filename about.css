@@ -200,14 +200,11 @@ h1 {
 }
 section {
     padding: 2% 7%;
+    background-color: rgb(255, 247, 254);
 }
 
 #main p {
     padding-top: 2%;
-}
-
-.blog1{
-    background-color: rgb(255, 247, 254);
 }
 
 hr {
@@ -229,9 +226,6 @@ button{
     font-size: 1rem;
 }
 
-.resources{
-    background-color: rgb(255, 247, 254);
-}
 
 .resources-containers{
     display: flex;
@@ -257,6 +251,16 @@ button{
 
 .resources-containers p {
     margin-left: 5%;
+}
+
+.language img {
+    width: 100px;
+    /* border-radius: 50px; */
+}
+
+.language div{
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
