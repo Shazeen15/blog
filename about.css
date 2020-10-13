@@ -245,7 +245,7 @@ button{
 }
 
 .resources-containers img:hover{
-    width: 210px;
+    width: 105px;
     transition: .5s;
 }
 
@@ -253,14 +253,15 @@ button{
     margin-left: 5%;
 }
 
-.language img {
+.skill img {
     width: 100px;
-    /* border-radius: 50px; */
+    border-radius: 50px;
 }
 
-.language div{
+.skill div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 footer {
