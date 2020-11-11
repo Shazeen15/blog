@@ -1,4 +1,3 @@
-
 import me from './components/img/shaz.png'
 import './App.css';
 
@@ -11,6 +10,7 @@ function App() {
   return (
     <div>
       <nav>
+        <Link to='/'>Home</Link>
         <Link to="/about">About Me</Link>
         <Link to="/skills">Skills</Link>
         <Link to="/projects">Projects</Link>
