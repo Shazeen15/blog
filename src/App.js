@@ -1,10 +1,36 @@
-import Nav from './components/Nav';
+
+import me from './components/img/shaz.png'
 import './App.css';
+
+import { Route, Link, Switch } from "react-router-dom";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div>
-      <Nav/>
+      <nav>
+        <Link to="/about">About Me</Link>
+        <Link to="/skills">Skills</Link>
+        <Link to="/projects">Projects</Link>
+      </nav>
+      <div className='myNamePicture'>
+        <h1>Shazeen Fabius</h1>
+        <img src={me} alt=""/>
+      </div>
+      <Switch>
+          <Route path='/skills'>
+              <Skills/>
+          </Route>
+          <Route path='/projects'>
+              <Projects/>
+          </Route>
+          <Route exact path='/about'>
+              <About/>
+          </Route>
+          
+      </Switch>
     </div>
   );
 }

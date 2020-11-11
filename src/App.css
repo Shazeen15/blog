@@ -53,6 +53,16 @@ table {
 
 
 */
+/* App file */
+.myNamePicture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  width: 200px;
+  margin: 2%;
+}
 
 nav{
   display: flex;
