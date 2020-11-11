@@ -76,6 +76,12 @@ a{
   color: #3E2A35;
 }
 
+/* home file */
+.home{
+  display: flex;
+  justify-content: center;
+}
+
 /* about page styles */
 
 h1{
